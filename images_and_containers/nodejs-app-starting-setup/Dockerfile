@@ -2,7 +2,7 @@
 # when building a container from our own image
 
 # --- Setting up image template (Code runs when building/creating image)
-# 1. (FROM) Import base image into own image
+# 1. (FROM) Import base image -node- into own image
 FROM node
 
 # 2. (WORKDIR) Set working directory of docker container
