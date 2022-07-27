@@ -19,7 +19,7 @@ COPY . /app
 # By default the workdir of the app is /root
 RUN npm install
 
-# 5. (EXPOSE) Let docker know to open given port for outside communication
+# 5. (EXPOSE) Let docker know to open given port for outside communication (documentation purpose, needs to open port when running container)
 EXPOSE 80
 
 # --- Code that runs when a container starts
